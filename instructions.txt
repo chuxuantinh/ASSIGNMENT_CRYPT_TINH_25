@@ -1,0 +1,11 @@
+
+#encrypt:
+python enc_aff.py tinh.txt 3 5
+
+python enc_aff.py tinh.txt >enc_tinh.txt
+
+Decrypt:
+python dec_aff.py enc_tinh.txt >dec_tinh.txt
+
+
+
